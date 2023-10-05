@@ -5,9 +5,10 @@ import qZone2 from "../../../assets/qZone2.png"
 import qZone3 from "../../../assets/qZone3.png"
 
 
+
 const RightSideNav = () => {
     return (
-        <div>
+        <div className='sticky top-2'>
             <div className='p-4 space-y-3 mb-6'>
                 <h1 className="text-3xl font-semibold"> Login With </h1>
                 <button className="btn btn-outline w-full text-xl font-bold">
